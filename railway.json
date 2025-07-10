@@ -1,0 +1,12 @@
+{
+  "name": "v2ray-simple",
+  "services": [
+    {
+      "name": "v2ray",
+      "startCommand": "node index.js",
+      "env": {
+        "UUID": "YOUR_UUID_HERE"
+      }
+    }
+  ]
+}
